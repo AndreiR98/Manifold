@@ -1,0 +1,25 @@
+{
+  "name": "randrei98/phpqencryption",
+  "description" : "Quantum cryptography",
+  "type" : "library",
+  "license" : "MIT",
+  "autoload": {
+    "psr-4": {
+      "Manifold\\": "src/",
+      "Commons\\MathOperations\\": "src/commons"
+    }
+  },
+  "authors": [
+    {
+      "name" : "Andrei Rotaru",
+      "email" : "rotaru.andrei98@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require-dev": {
+    "brick/math": "0.10.0"
+  },
+  "require": {
+    "brick/math": "0.10.0"
+  }
+}
